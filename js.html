@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="js.css">
+  <title>Calculator</title>
+</head>
+<body>
+  <div class="main">
+    <input id="inp" type="text" autofocus readonly>
+    <div class="abtn">
+    <div class="btn">
+      <button value="9" onclick="digi(this)">9</button>
+      <button value="8" onclick="digi(this)">8</button>
+      <button value="7" onclick="digi(this)">7</button>
+      <button value="+" onclick="digi(this)">+</button>
+    </div>
+    <div class="btn">
+      <button value="6" onclick="digi(this)">6</button>
+      <button value="5" onclick="digi(this)">5</button>
+      <button value="4" onclick="digi(this)">4</button>
+      <button value="-" onclick="digi(this)">-</button>
+    </div>
+    <div class="btn">
+      <button value="3" onclick="digi(this)">3</button>
+      <button value="2" onclick="digi(this)">2</button>
+      <button value="1" onclick="digi(this)">1</button>
+      <button value="*" onclick="digi(this)">*</button>
+    </div>
+    <div class="btn">
+      <button value="/" onclick="digi(this)">/</button>
+      <button id="" value="" onclick="clean()">C</button>
+      <button value="0" onclick="digi(this)">0</button>
+      <button value="" onclick="eql()">=</button>
+    </div>
+    <div class="btn">
+      <button value="" onclick="del()">DEl</button>
+      <button value="." onclick="digi(this)">.</button>
+    </div>
+  </div>
+  </div>
+  <script src="script1.js"></script>
+</body>
+</html>
